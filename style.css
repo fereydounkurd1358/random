@@ -2,13 +2,14 @@
     font-family: xxx;
     src: url(./fonts/vazir-font-v18.0.0/Vazir.ttf);
 }
+@import url('https://v1.fontapi.ir/css/Vazir');
 
 * {
     direction: rtl;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: xxx;
+    font-family: Vazir, xxx;
 }
 
 .wrapper {
