@@ -14,7 +14,7 @@ let playersList = [];
 let players = 0;
 let randome = false;
 
-window.addEventListener('DOMContentLoaded', ()=>{
+window.addEventListener('load', ()=>{
     window.scrollTo(0, 100);
 });
 
