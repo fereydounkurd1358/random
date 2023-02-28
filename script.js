@@ -69,7 +69,7 @@ function randomeProcess() {
             resetDataBtn.style.display = 'block';
             let gamesNum = Math.floor((Math.random() * 5) + 1);
             games.innerHTML = gamesNum;
-            games.style.display = 'block';
+            games.style.display = 'flex';
             headingOrder.innerHTML = 'جووون بزن بریم :)';
         }, 18500);  
     }

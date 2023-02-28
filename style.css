@@ -210,15 +210,16 @@
 }
 
 .games {
+    width: 40px;
+    height: 40px;
     position: fixed;
-    font-size: 18pt;
+    font-size: 15pt;
     left: 10px;
     top: 25px;
-    padding: 5px 18px;
     font-weight: 600;
     border-radius: 50%;
-    background-color: #eee;
-    color: #e6327f;
+    background-color: #e6327f;
+    color: #eee;
     display: flex;
     align-items: center;
     justify-content: center;
