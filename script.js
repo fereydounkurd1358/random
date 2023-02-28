@@ -14,6 +14,10 @@ let playersList = [];
 let players = 0;
 let randome = false;
 
+window.addEventListener('DOMContentLoaded', ()=>{
+    window.scrollTo(0, 100);
+});
+
 function randomeProcess() {
     if (!randome) {
         if (input.value !== '') {
@@ -103,4 +107,5 @@ function resetData() {
     games.innerHTML = '';
     games.style.display = 'none';
     headingOrder.innerHTML = 'بازیکن اول';
+    window.scrollTo(0, 100);
 }
