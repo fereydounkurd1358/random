@@ -44,6 +44,31 @@
     font-size: 13pt;
     outline: none;
 }
+.input:disabled {
+    border-color: #ccc;
+    opacity: 0.5;
+}
+.empty {
+    animation: no 0.2s;
+} @keyframes no {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(15px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(-15px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
 .button--wrapper {
     width: 100%;
 }
@@ -59,6 +84,15 @@
     border: none;
     border-radius: 150px;
     transition: 0.3s;
+}
+.btns:disabled {
+    background-color: #ccc;
+    opacity: 0.5;
+    color: #262626;
+}
+.btns:disabled:active {
+    background-color: red;
+    transform: scale(1);
 }
 .btns:active {
     background-color: #003195;
