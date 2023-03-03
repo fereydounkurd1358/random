@@ -54,19 +54,19 @@ function randomeProcess() {
             p1.innerHTML = playersList[randomePlayer];
             p1.classList.add('pp1')
             playersList = playersList.filter((x)=> x !== playersList[randomePlayer]);
-        }, 2000);
+        }, 1000);
         setTimeout(() => {
             let randomePlayer = Math.floor(Math.random() * playersList.length);
             p3.innerHTML = playersList[randomePlayer];
             p3.classList.add('pp3')
             playersList = playersList.filter((x)=> x !== playersList[randomePlayer]);
-        }, 9000);
+        }, 7000);
         setTimeout(() => {
             let randomePlayer = Math.floor(Math.random() * playersList.length);
             p2.innerHTML = playersList[randomePlayer];
             p2.classList.add('pp2')
             playersList = playersList.filter((x)=> x !== playersList[randomePlayer]);
-        }, 18000);
+        }, 15000);
         setTimeout(() => {
             p4.innerHTML = playersList[0];
             p4.classList.add('pp4');            
@@ -75,7 +75,7 @@ function randomeProcess() {
             games.innerHTML = gamesNum;
             games.style.display = 'flex';
             headingOrder.innerHTML = 'جووون بزن بریم :)';
-        }, 18500);  
+        }, 15100);  
     }
 }
 btn.addEventListener('click', randomeProcess)
