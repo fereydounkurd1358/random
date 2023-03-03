@@ -144,7 +144,7 @@
 .pp1 {
     display: block;
     transform: translateX(-100%);
-    animation: pp1 0.8s ease-in forwards;
+    animation: pp1 0.5s ease-in forwards;
 } @keyframes pp1 {
     from {
         transform: translateX(-100%);
@@ -169,7 +169,7 @@
 .pp3 {
     display: block;
     transform: translateX(100%);
-    animation: pp3 1.5s ease-in forwards;
+    animation: pp3 0.5s ease-in forwards;
 } @keyframes pp3 {
     from {
         transform: translateX(100%);
